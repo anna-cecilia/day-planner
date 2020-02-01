@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: .8em;
     vertical-align: middle;
+    padding-top: 100px;
 }
 
 #navbar-title {
@@ -19,3 +20,26 @@ body {
     width: 100%;
     text-align: center;
   }
+
+  #navbar-subtitle {
+    padding: 2px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+  }
+
+  .col-md-1, .col-md-2, .col-md-9 {
+    padding: 0;
+  }
+
+
+  /* Start of planner section */
+
+  #plannerContainer {
+    background-color: burlywood;  
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 40px;
+  } 
+
+  
