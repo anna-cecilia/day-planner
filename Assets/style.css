@@ -1,0 +1,21 @@
+body {
+    background-color:whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: .8em;
+    vertical-align: middle;
+}
+
+#navbar-title {
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-bottom-color: #ccc;
+    width: 100%;
+    text-align: center;
+  }
