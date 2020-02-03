@@ -42,4 +42,11 @@ body {
     padding: 40px;
   } 
 
-  
+  .plannerRow {
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 5px;
+  }
