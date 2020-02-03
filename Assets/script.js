@@ -1,10 +1,10 @@
 $(document).ready(function() {
   
   // test flag
-  const test = false;
+  var test = false;
 
   // get times from moment
-  const now = moment().format('MMMM Do YYYY');
+  var now = moment().format('MMMM Do YYYY');
 
   // commented out for test in non-standard hours
   let nowHour24 = moment().format('H');
@@ -15,7 +15,7 @@ $(document).ready(function() {
   $dateHeading.text(now);
 
 
-  const saveIcon = "./images/save-regular.svg"; 
+  var saveIcon = "./images/save-regular.svg"; 
 
   // Get stored todos from localStorage
   let storedPlans = JSON.parse(localStorage.getItem("savedPlans"));
@@ -32,8 +32,6 @@ $(document).ready(function() {
   let $plannerDiv = $('#plannerContainer');
   // clear existing elements
   $plannerDiv.empty();
-
-
 
   // build calendar by row for fix set of hours
   for (let hour = 9; hour <= 17; hour++) {
@@ -113,7 +111,6 @@ $(document).ready(function() {
   // function to update row color
   function updateRowColor ($hourRow,hour) { 
 
-    if (test) { console.log("rowColor ",nowHour24, hour); }
 
     if ( hour < nowHour24) {
       $hourRow.css("background-color","lightgrey")
